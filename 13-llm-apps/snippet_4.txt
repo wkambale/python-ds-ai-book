@@ -1,0 +1,7 @@
+# Weak (invites hallucination)
+
+"Tell me about malaria treatment protocols in Kenya."
+
+"Based ONLY on the WHO guidelines I've provided, summarize the
+recommended malaria treatment protocols. If information is not
+in the provided text, say 'Not specified in provided guidelines.'"

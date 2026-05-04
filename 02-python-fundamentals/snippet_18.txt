@@ -1,0 +1,3 @@
+Union: {'Diana', 'Eve', 'Alice', 'Frank', 'Charlie', 'Bob'}
+Intersection: {'Diana', 'Charlie'}
+Difference: {'Alice', 'Bob'}

@@ -1,0 +1,4 @@
+List with duplicates: ['technology', 'africa', 'python', 'ai', 'africa', 'data']
+Set of unique tags: {'data', 'africa', 'ai', 'python', 'technology'}
+Is 'python' a tag? True
+Is 'business' a tag? False

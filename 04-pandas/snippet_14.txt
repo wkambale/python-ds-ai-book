@@ -1,0 +1,5 @@
+amount_category
+Medium    30
+Small     15
+Large      5
+Name: count, dtype: int64

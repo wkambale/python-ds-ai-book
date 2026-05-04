@@ -1,0 +1,2 @@
+313/313 ━━━━━━━━━━━━━━━━━━━━ 2s 5ms/step - accuracy: 0.9782 - loss: 0.1276
+Test Accuracy: 0.9816

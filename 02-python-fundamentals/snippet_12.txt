@@ -1,0 +1,3 @@
+The first city is: Lagos
+The third city is: Ibadan
+The last city is: Port Harcourt

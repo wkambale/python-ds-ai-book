@@ -1,0 +1,9 @@
+Is days_since_last_transaction > 30?
+├── YES: Is customer_support_tickets > 2?
+│   ├── YES: Predict CHURN (85% confidence)
+│   └── NO: Is tenure_months < 6?
+│       ├── YES: Predict CHURN (70% confidence)
+│       └── NO: Predict NO CHURN (65% confidence)
+└── NO: Is account_balance < 10000?
+    ├── YES: Predict CHURN (60% confidence)
+    └── NO: Predict NO CHURN (90% confidence)

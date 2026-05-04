@@ -1,0 +1,15 @@
+Original class distribution:
+churned
+0    900
+1    300
+Name: count, dtype: int64
+
+After SMOTE:
+0    900
+1    900
+Name: count, dtype: int64
+
+Performance Comparison:
+        Method  Precision    Recall  F1-Score
+ Original Data   0.615385  0.426667  0.503937
+    With SMOTE   0.477273  0.560000  0.515267

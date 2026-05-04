@@ -1,0 +1,5 @@
+jan_data = df[df['timestamp'].dt.month == 1].copy()
+feb_data = df[df['timestamp'].dt.month == 2].copy()
+# Vertical concatenation (stacking rows)
+combined = pd.concat([jan_data, feb_data], ignore_index=True)
+print(f"Jan rows: {len(jan_data)}, Feb rows: {len(feb_data)}, Combined: {len(combined)}")

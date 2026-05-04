@@ -1,0 +1,22 @@
+Generated 1500 customer records
+Churn rate: 25.1%
+  customer_id  age location  tenure_months  account_balance  \
+0     CUS0001   56  Nairobi             16        164973.44
+1     CUS0002   69  Kampala             94        624066.86
+2     CUS0003   46     Gulu             40          5779.51
+3     CUS0004   32  Nairobi              2        262781.22
+4     CUS0005   60  Nairobi             81       1288687.78
+
+   avg_monthly_deposits  avg_monthly_withdrawals  days_since_last_transaction  \
+0             126519.53                125385.81                            9
+1             244587.23                157277.57                           15
+2             510702.02                 54064.41                           36
+3              30628.90                 92422.83                           78
+4              72550.64                 49138.07                           76
+
+   customer_support_tickets  churned
+0                         1        0
+1                         0        0
+2                         1        1
+3                         1        1
+4                         0        1

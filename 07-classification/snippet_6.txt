@@ -1,0 +1,4 @@
+Effect of Class Weights:
+Class Weight  Accuracy  Precision    Recall  F1-Score
+        None  0.756667   0.615385  0.426667  0.503937
+    balanced  0.713333   0.522727  0.613333  0.564356

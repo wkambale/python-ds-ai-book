@@ -1,0 +1,4 @@
+Model trained successfully!
+Predictions shape: (300,)
+Sample predictions: [0 0 0 1 1 0 0 1 0 0]
+Sample probabilities: [0.268 0.189 0.297 0.533 0.614 0.249 0.31  0.588 0.217 0.343]

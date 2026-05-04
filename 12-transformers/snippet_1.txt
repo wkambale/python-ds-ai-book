@@ -1,0 +1,2 @@
+Text: 'This mobile money app is incredibly fast and relia...'
+  Sentiment: POSITIVE (0.9994)

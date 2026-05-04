@@ -1,0 +1,16 @@
+Boolean mask (first 5 values):
+0     True
+1    False
+2    False
+3    False
+4     True
+Name: transaction_type, dtype: bool
+
+Number of deposits: 18
+
+High-value deposits: 8
+
+High-value Kampala deposits:
+   customer_id  amount_ugx agent_location
+10      CUS110       85000        Kampala
+36      CUS101      110000        Kampala

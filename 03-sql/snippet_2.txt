@@ -1,0 +1,11 @@
+student_id            name  score
+0           2    David Okello   92.0
+1           1  Aisha Mohammed   88.5
+2           3     Fatima Diop   79.5
+
+DataFrame shape: (3, 3)
+Column types:
+student_id      int64
+name           object
+score         float64
+dtype: object

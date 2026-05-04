@@ -1,0 +1,4 @@
+Please enter your name: Amara Okonkwo
+Welcome, Amara Okonkwo!
+What year were you born? 1995
+The type of the year you entered is: <class 'str'>

@@ -1,0 +1,24 @@
+First row:
+customer_id                   CUS102
+agent_id                     AGT5001
+transaction_type             deposit
+amount_ugx                     50000
+timestamp         2025-01-15 09:12:00
+agent_location               Kampala
+Name: TXN001, dtype: object
+
+First 5 rows, first 3 columns:
+               customer_id agent_id transaction_type
+transaction_id
+TXN001              CUS102  AGT5001          deposit
+TXN002              CUS103  AGT5003       withdrawal
+TXN003              CUS102  AGT5001       withdrawal
+TXN004              CUS101      NaN         transfer
+TXN005              CUS104  AGT5002          deposit
+
+Specific positions:
+               customer_id transaction_type
+transaction_id
+TXN001              CUS102          deposit
+TXN006              CUS107       withdrawal
+TXN011              CUS109          deposit

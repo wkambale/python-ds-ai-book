@@ -1,0 +1,7 @@
+Categorical columns to encode: ['location']
+
+Original shape: (1500, 8)
+Encoded shape: (1500, 12)
+
+New columns after encoding:
+['location_Gulu', 'location_Jinja', 'location_Kampala', 'location_Mbarara', 'location_Nairobi']

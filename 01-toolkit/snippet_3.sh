@@ -1,0 +1,1 @@
+conda activate ds-ai-book

@@ -1,0 +1,5 @@
+Text: 'The harvest this year was poor due to the drought.'
+Predictions:
+  Negative   ██████████████████ 0.9310
+  Neutral    █ 0.0652
+  Positive    0.0039

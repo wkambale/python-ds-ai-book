@@ -1,0 +1,1 @@
+df_eng['amount_category'] = pd.cut(

@@ -1,0 +1,4 @@
+Addition: 19
+Subtraction: 11
+Multiplication: 60
+Division: 3.75

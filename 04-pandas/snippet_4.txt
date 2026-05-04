@@ -1,0 +1,25 @@
+Transaction Types
+transaction_type
+deposit       18
+withdrawal    17
+transfer      15
+Name: count, dtype: int64
+
+Agent Locations (excluding NaN)
+agent_location
+Kampala    11
+Entebbe     8
+Jinja       7
+Gulu        5
+Mbarara     4
+Name: count, dtype: int64
+
+Missing Values by Column
+transaction_id       0
+customer_id          0
+agent_id            15
+transaction_type     0
+amount_ugx           0
+timestamp            0
+agent_location      15
+dtype: int64

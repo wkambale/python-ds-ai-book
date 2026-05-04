@@ -1,0 +1,1 @@
+print("Hello, Africa! The journey begins.")

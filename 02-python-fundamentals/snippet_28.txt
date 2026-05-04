@@ -1,0 +1,5 @@
+Transaction Summary
+Total Deposits: 175,000 NGN (3 transactions)
+Total Withdrawals: 70,000 NGN (4 transactions)
+Net Change: +105,000 NGN
+Largest Transaction: 100,000 NGN (deposit)

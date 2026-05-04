@@ -1,0 +1,4 @@
+First character: P
+Last character: n
+First three: Pyt
+From index 2 onwards: thon

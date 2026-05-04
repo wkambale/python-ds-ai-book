@@ -1,0 +1,5 @@
+Data shapes after splitting:
+  X_train: (1200, 12)
+  X_test:  (300, 12)
+  y_train: (1200,)
+  y_test:  (300,)

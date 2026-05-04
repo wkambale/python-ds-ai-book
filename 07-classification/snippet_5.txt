@@ -1,0 +1,12 @@
+Feature Importances:
+                       Feature  Importance
+ days_since_last_transaction    0.482191
+     avg_monthly_withdrawals    0.096526
+        avg_monthly_deposits    0.089522
+               tenure_months    0.087234
+             account_balance    0.084723
+   customer_support_tickets    0.055891
+                         age    0.044382
+            location_Nairobi    0.016234
+            location_Kampala    0.015123
+             location_Mbarara    0.012456

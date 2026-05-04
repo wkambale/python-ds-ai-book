@@ -1,0 +1,5 @@
+After append: ['Lagos', 'Kano', 'Ibadan', 'Abuja', 'Port Harcourt', 'Benin City']
+After insert: ['Lagos', 'Onitsha', 'Kano', 'Ibadan', 'Abuja', 'Port Harcourt', 'Benin City']
+After modification: ['Lagos', 'Onitsha', 'Kano (Metropolis)', 'Ibadan', 'Abuja', 'Port Harcourt', 'Benin City']
+After remove: ['Lagos', 'Onitsha', 'Kano (Metropolis)', 'Abuja', 'Port Harcourt', 'Benin City']
+Popped: Benin City, List now: ['Lagos', 'Onitsha', 'Kano (Metropolis)', 'Abuja', 'Port Harcourt']

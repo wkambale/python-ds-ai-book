@@ -1,0 +1,4 @@
+TensorFlow Version: 2.19.0
+Training Data Shape: (60000, 28, 28)
+Test Data Shape: (10000, 28, 28)
+Pixel value range: [0, 255]

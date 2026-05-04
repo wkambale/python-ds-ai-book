@@ -1,0 +1,17 @@
+Messy data:
+0        50000
+1       25,000
+2    10000 UGX
+3      invalid
+4        75000
+dtype: object
+
+After conversion:
+0    50000.0
+1    25000.0
+2    10000.0
+3        NaN
+4    75000.0
+dtype: float64
+
+Failed conversions: ['invalid']

@@ -1,0 +1,1 @@
+Classify the sentiment of Swahili product reviews as Positive, Negative, or Neutral.
