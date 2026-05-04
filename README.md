@@ -1,6 +1,6 @@
-# African Data Science & AI: Python Code Examples
+# Python for AI & Data Science: Code Examples
 
-This repository contains the complete code examples, snippets, and datasets from the book **"African Data Science & AI"**.
+This repository contains the complete code examples, snippets, and datasets from the book **"Python for AI & Data Science"**.
 
 ## Repository Structure
 
@@ -28,7 +28,7 @@ The code is organized by chapter to follow the book's learning path:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/python-ds-ai-book.git
+   git clone https://github.com/wkambale/python-ds-ai-book.git
    ```
 
 2. **Datasets**:
