@@ -1,2 +1,0 @@
-"If you're not certain about any information, explicitly state your
-uncertainty level (high/medium/low confidence) and explain why."

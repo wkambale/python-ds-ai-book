@@ -1,6 +1,0 @@
-timestamp        date  hour day_of_week  is_weekend
-0 2025-01-15 09:12:00  2025-01-15     9   Wednesday       False
-1 2025-01-15 11:45:00  2025-01-15    11   Wednesday       False
-2 2025-01-16 16:03:00  2025-01-16    16    Thursday       False
-3 2025-01-17 10:22:00  2025-01-17    10      Friday       False
-4 2025-01-18 14:30:00  2025-01-18    14    Saturday        True

@@ -1,2 +1,0 @@
-Original rows: 50, After filter: 35
-Remaining types: ['deposit', 'withdrawal']

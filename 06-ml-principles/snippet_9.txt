@@ -1,5 +1,0 @@
-5-Fold Cross-Validation Results (f1):
-  Scores: [0.545 0.569 0.533 0.573 0.581]
-  Mean:   0.560
-  Std:    0.019
-  95% CI: [0.523, 0.597]

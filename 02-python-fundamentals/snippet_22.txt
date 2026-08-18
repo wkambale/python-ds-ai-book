@@ -1,7 +1,0 @@
-Keys: user_id full_name balance_ngn is_verified
-
-User Profile
-User Id: USR-007
-Full Name: Adanna Chukwu
-Balance Ngn: 65200.5
-Is Verified: True

@@ -1,3 +1,0 @@
-Training set statistics after scaling:
-  Mean: [-0.  0. -0. -0.  0. -0. -0.  0.  0.  0. -0. -0.]
-  Std:  [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]

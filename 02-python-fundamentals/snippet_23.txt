@@ -1,4 +1,0 @@
-Withdrawal 1 successful. New balance: 37500
-Withdrawal 2 successful. New balance: 25000
-Withdrawal 3 successful. New balance: 12500
-Withdrawal 4 successful. New balance: 0

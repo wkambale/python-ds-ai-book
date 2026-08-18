@@ -1,3 +1,0 @@
-Can vote (all conditions): False
-Has some documentation: True
-Is NOT registered: True

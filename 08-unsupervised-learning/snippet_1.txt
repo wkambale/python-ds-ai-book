@@ -1,6 +1,0 @@
-Cluster Centers (Averages)
-         avg_transaction_amount  frequency_score
-Cluster
-0                   5047.776437        20.032027
-1                  50293.524323        79.715632
-2                 500623.226320        49.950297
