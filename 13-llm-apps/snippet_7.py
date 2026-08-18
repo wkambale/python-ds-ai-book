@@ -1,5 +1,7 @@
-def build_rag_prompt(
+from typing import List
+from langchain.schema import Document
 
+def build_rag_prompt(
     query: str,
     retrieved_docs: List[Document],
     system_context: str = ""
@@ -14,7 +16,14 @@ def build_rag_prompt(
 
     Returns:
         Complete prompt string
+    """
+    context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+    prompt = f"""Context:
+{context}
 
-    "What are my rights if I am arrested?",
-    vector_store
-)
+System Instructions:
+{system_context}
+
+Question: {query}
+Answer:"""
+    return prompt

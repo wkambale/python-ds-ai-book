@@ -1,3 +1,5 @@
+major_cities = ["Lagos", "Kano", "Ibadan", "Abuja", "Port Harcourt"]
+
 # Access the first item (at index 0)
 first_city = major_cities[0]
 print(f"The first city is: {first_city}")

@@ -1,8 +1,14 @@
+import pandas as pd
+from typing import List
+from tensorflow import keras
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+
 def predict_sentiment(model: keras.Model,
                       tokenizer: Tokenizer,
                       texts: List[str],
                       max_length: int,
-                      threshold: float = 0.5) -> List[dict]:
+                      threshold: float = 0.5) -> pd.DataFrame:
     """
     Predict sentiment for new texts.
 
@@ -19,18 +25,14 @@ def predict_sentiment(model: keras.Model,
     
     results = []
     for text, pred in zip(texts, predictions):
-        sentiment = "Positive" if pred[0] > threshold else "Negative"
-        results.append({"text": text, "sentiment": sentiment, "score": pred[0]})
+        score = float(pred[0])
+        sentiment = "Positive" if score > threshold else "Negative"
+        confidence = score if score > threshold else 1.0 - score
+        results.append({"text": text, "sentiment": sentiment, "score": score, "confidence": confidence})
         
     return pd.DataFrame(results)
 
 new_posts = [
     "Still waiting for the permit after six months",
     "Finally reliable electricity in our village!"
-
-results = predict_sentiment(model, tokenizer, test_posts, max_length)
-
-for r in results:
-    status = "PASS" if r['confidence'] > 0.7 else "?"
-    print(f"{status} '{r['text'][:40]}...'")
-    print(f"  Sentiment: {r['sentiment']} (confidence: {r['confidence']:.2%})")
+]

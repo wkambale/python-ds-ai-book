@@ -21,7 +21,7 @@ def main():
     try:
         user_input = input("Enter your monthly data usage in GB: ")
         data_usage_gb = float(user_input)
-        recommendation = recommend_data_plan(data_usage_gb)
+        recommendation = get_data_recommendation(data_usage_gb)
         print(f"\nRecommendation: {recommendation}")
     except ValueError:
         print("\n" + "-" * 40)

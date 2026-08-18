@@ -1,8 +1,12 @@
 # tests/test_api.py
+import sys
+from pathlib import Path
+
+# Add 15-deployment directory to path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import pytest
 from fastapi.testclient import TestClient
-from unittest.mock import Mock, patch
-
 from app.main import app
 from app.schemas import ChurnPredictionInput
 
@@ -29,6 +33,8 @@ def test_health_endpoint(client):
     """Test health check returns 200."""
     response = client.get("/health")
     assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "healthy"
 
 def test_valid_prediction(client, valid_input):
     """Test prediction with valid input."""

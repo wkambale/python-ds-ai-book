@@ -7,29 +7,34 @@ These tests verify:
 2. Input validation works correctly
 3. Error handling is appropriate
 """
+import sys
+from pathlib import Path
+
+# Add 15-deployment to sys.path to test the deployment app
+app_dir = Path(__file__).resolve().parent.parent.parent / "15-deployment"
+sys.path.insert(0, str(app_dir))
+
 import pytest
 from fastapi.testclient import TestClient
 from unittest.mock import patch, MagicMock
-import numpy as np
-
 from app.main import app
-from fastapi.testclient import TestClient
-import pytest
-from unittest.mock import MagicMock, patch
 
 client = TestClient(app)
 
+valid_payload = {
+    "age": 34,
+    "tenure_months": 12,
+    "account_balance": 25000.50,
+    "avg_monthly_deposits": 50000.0,
+    "avg_monthly_withdrawals": 30000.0,
+    "days_since_last_transaction": 5,
+    "customer_support_tickets": 1,
+    "location": "Kampala"
+}
+
 def test_predict_endpoint():
-    with patch('app.main.model_service') as mock_service:
-        for prob in [0.9, 0.4, 0.1]:
-            if prob >= 0.8:
-                mock_service.predict.return_value = MagicMock(
-                    churn_probability=prob,
-                    risk_level="Medium",
-                    model_version="1.0.0"
-                )
-
-                response = client.post("/predict", json=valid_payload)
-                data = response.json()
-
-                assert 0 <= data["churn_probability"] <= 1
+    response = client.post("/predict", json=valid_payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert 0.0 <= data["churn_probability"] <= 1.0
+    assert data["risk_category"] in ["Low", "Medium", "High"]
