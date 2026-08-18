@@ -1,5 +1,8 @@
-def retrieve_relevant_chunks(
+from typing import List
+from langchain.schema import Document
+from langchain_community.vectorstores import Chroma
 
+def retrieve_relevant_chunks(
     query: str,
     vector_store: Chroma,
     k: int = 4
@@ -11,5 +14,5 @@ def retrieve_relevant_chunks(
         query: User's question in natural language
         vector_store: Chroma vector store to search
         k: Number of chunks to retrieve
-
-for i, (doc, score) in enumerate(results):
+    """
+    return vector_store.similarity_search(query, k=k)

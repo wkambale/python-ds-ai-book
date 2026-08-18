@@ -15,7 +15,12 @@ class LLMConfig:
     temperature: float = 0.7
     max_tokens: int = 500
 
-def simple_query(prompt: str, config: LLMConfig = None) -> str:
+def create_completion(messages: List[Message], config: LLMConfig) -> str:
+    """Sends messages to an LLM provider and returns the output string."""
+    # Placeholder for actual API client call
+    return f"Response from {config.model}"
+
+def simple_query(prompt: str, system_prompt: Optional[str] = None, config: Optional[LLMConfig] = None) -> str:
     """
     Sends a query to the LLM and returns the response.
     """

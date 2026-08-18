@@ -1,7 +1,5 @@
 # app/config.py
-from pydantic_settings import BaseSettings
-from pathlib import Path
-from typing import Optional
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from functools import lru_cache
 
 class Settings(BaseSettings):
@@ -10,9 +8,13 @@ class Settings(BaseSettings):
 
     Environment variables can be set directly or via a .env file.
     """
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
+
     app_name: str = "MobiCash Churn API"
     app_version: str = "1.0.0"
-        env_file_encoding = "utf-8"
+    model_path: str = "models/model.pkl"
+    high_risk_threshold: float = 0.8
+    medium_risk_threshold: float = 0.5
 
 @lru_cache()
 def get_settings() -> Settings:
