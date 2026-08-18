@@ -1,5 +1,0 @@
-Messy locations:
-['  kampala ', 'Nairobi West', 'KAMPALA', ' nairobi  ']
-
-Cleaned locations:
-['Kampala', 'Nairobi', 'Kampala', 'Nairobi']

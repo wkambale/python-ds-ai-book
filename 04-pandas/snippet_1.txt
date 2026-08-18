@@ -1,7 +1,0 @@
-Series example:
-TXN001    50000
-TXN002    25000
-TXN003    10000
-Name: amount_ugx, dtype: int64
-Index: ['TXN001', 'TXN002', 'TXN003']
-Values: [50000, 25000, 10000]

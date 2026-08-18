@@ -1,6 +1,0 @@
-Transaction type summary:
-                  count       sum          mean    median
-transaction_type
-deposit              18   1045000  58055.555556   52500.0
-withdrawal           17   1210000  71176.470588   25000.0
-transfer             15    677000  45133.333333   30000.0

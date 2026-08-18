@@ -1,7 +1,0 @@
-Merged data sample:
-  transaction_id customer_id  customer_name  amount_ugx
-0         TXN001      CUS102  Wanjiru Kamau       50000
-1         TXN002      CUS103   Kwesi Mensah       25000
-2         TXN003      CUS102  Wanjiru Kamau       10000
-3         TXN004      CUS101      Ade Bello       30000
-4         TXN005      CUS104   Amina Diallo       75000

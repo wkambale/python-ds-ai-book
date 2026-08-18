@@ -1,2 +1,0 @@
-Am I eligible to vote? True
-The type of this result is: <class 'bool'>

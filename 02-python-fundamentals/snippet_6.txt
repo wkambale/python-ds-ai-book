@@ -1,4 +1,0 @@
-Length: 44
-Uppercase: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
-Replaced: The quick brown cheetah jumps over the lazy dog.
-Starts with 'The': True

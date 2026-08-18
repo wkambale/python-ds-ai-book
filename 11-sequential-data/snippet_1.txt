@@ -1,6 +1,0 @@
-Vocabulary size: 52
-Sequence shape: (8, 15)
-
-Sample mapping:
-  'The new M-Pesa feature is fan...'
-  -> [ 2  3  4  5  6  7  8  9 10  0  0  0  0  0  0]
